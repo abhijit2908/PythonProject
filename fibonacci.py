@@ -1,4 +1,4 @@
-def fibonacci(x):
+def fibonacci(x: int) -> int:
     """Return the 'n'th fibonacci number"""
     if 0 <= x <= 1:
         print(x)
@@ -13,5 +13,5 @@ def fibonacci(x):
     return v
 
 fibonacci(10)
-fibonacci(0)
+fibonacci(5)
 
